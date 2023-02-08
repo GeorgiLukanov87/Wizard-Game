@@ -1,9 +1,9 @@
 function initState() {
-    let startX = Math.floor(Math.random() * 1000);
+    let startX = Math.floor(Math.random() * 500);
     let startY = Math.floor(Math.random() * 500);
 
     const state = {
-        player: 'Pesho',
+        player: 'Gandalf',
         gameOver: false,
         score: 0,
         scoreRate: 1,
@@ -16,18 +16,18 @@ function initState() {
             speed: 10,
         },
         bugStats: {
-            width: 50,
-            height: 50,
+            width: 80,
+            height: 80,
             nextSpawnTimestamp: 0,
-            maxSpawnInterval: 1500,
+            maxSpawnInterval: 1000,
             speed: 8,
         },
         fireball: {
-            width: 20,
-            height: 20,
-            speed: 12,
+            width: 35,
+            height: 35,
+            speed: 15,
             nextSpawnTimestamp: 0,
-            fireRate: 500,
+            fireRate: 300,
         },
         keys: {
             KeyA: false,
