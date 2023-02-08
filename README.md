@@ -1,7 +1,7 @@
 # Wizard-Game
   SoftUni Wizard-Game-workshop
 
-Controls:
+##Controls:
   Move -> "A" , "W", "D", "S".
   Fire -> "Space".
 
